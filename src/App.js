@@ -53,16 +53,16 @@ export default function App() {
       />
       <hr />
       <div className="nav-arrows">
-        <buttton onClick={() => moveFocus("up")}>
+        <buttton>
           <FontAwesomeIcon icon="arrow-up" />
         </buttton>
-        <buttton onClick={() => moveFocus("down")}>
+        <buttton>
           <FontAwesomeIcon icon="arrow-down" />
         </buttton>
-        <buttton onClick={() => moveFocus("left")}>
+        <buttton>
           <FontAwesomeIcon icon="arrow-left" />
         </buttton>
-        <buttton onClick={() => moveFocus("right")}>
+        <buttton>
           <FontAwesomeIcon icon="arrow-right" />
         </buttton>
       </div>
